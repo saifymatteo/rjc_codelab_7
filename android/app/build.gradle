@@ -85,17 +85,17 @@ android {
         production {
             dimension "default"
             applicationIdSuffix ""
-            manifestPlaceholders = [appName: "Rjc Codelab 7"]
+            manifestPlaceholders = [appName: "RJC Codelab 7"]
         }
         staging {
             dimension "default"
             applicationIdSuffix ".stg"
-            manifestPlaceholders = [appName: "[STG] Rjc Codelab 7"]
+            manifestPlaceholders = [appName: "[STG] RJC Codelab 7"]
         }
         development {
             dimension "default"
             applicationIdSuffix ".dev"
-            manifestPlaceholders = [appName: "[DEV] Rjc Codelab 7"]
+            manifestPlaceholders = [appName: "[DEV] RJC Codelab 7"]
         }
     }
 
